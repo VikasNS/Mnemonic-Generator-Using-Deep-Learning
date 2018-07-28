@@ -19,7 +19,7 @@ class Node():
 
 base_node=Node()
 for i,word in enumerate(all_words):
-        print(i/all_words)
+        print(i/len(all_words))
         node=base_node
         for letter in word:
             node=node.add_node(letter)
